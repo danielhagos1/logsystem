@@ -1,0 +1,45 @@
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    z-index: 10;
+
+    .footer-block
+    {
+        padding-bottom: 8em;
+
+        h2
+        {
+            padding-bottom: 2em;
+            font-size: 3em;
+            font-weight: bold;
+        }
+    }
+
+    .copy
+    {
+        text-align: right;
+        @media screen and (max-width: 767px)
+        {
+            text-align: center;
+        }
+    }
+
+    .socials
+    {
+        a
+        {
+            color: white;
+        }
+    
+        a:hover
+        {
+            color: $color-aqua-darker;
+            text-decoration: none;
+            //opacity: 0.7;
+        }
+    }
+}
